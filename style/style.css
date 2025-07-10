@@ -38,7 +38,6 @@
     border-radius: 10px;
     color: white;
     background-color: #4E47FF;
-    cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
@@ -197,6 +196,38 @@ input, textarea{
 
 .submitBtn{
     width: 80%;
+}
+
+footer{
+    height: 40vh;
+    text-align: center;
+}
+
+.footerWrapper{
+    width: 40%;
+    margin: 0 auto;
+}
+
+footer h1{
+    font-size: 60px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+ul li a:hover{
+    border-bottom: 1px solid #4E47FF;
 }
 
 
