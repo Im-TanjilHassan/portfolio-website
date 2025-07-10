@@ -100,6 +100,7 @@
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .primaryText{
@@ -122,7 +123,7 @@
      text-align: center;
 }
 
-.productiveTitle{
+.productiveSection h2{
     margin-bottom: 40px;
 }
 
@@ -131,3 +132,48 @@
     color: #4E47FF;
     font-weight: bold;
 }
+
+.card{
+    padding: 10px;
+    background-color: #25243217;
+    border-radius: 20px;
+}
+
+.iconBar {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.iconBar i{
+    color: goldenrod;
+}
+
+.cardTitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.userDetails{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userImg{
+    border-radius: 50px;
+    width: 60x;
+    height: 60px;
+}
+
+.userDetails p{
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.userDetails span{
+    color: gray;
+}
+
