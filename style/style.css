@@ -1,12 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .header{
     background-image: url("/images/Hero-bg.png");
-    height: 95vh;
     margin-bottom: 50px;
 }
 
@@ -34,7 +33,6 @@
 
 .primaryBtn{
     text-align: center;
-    width: 100px;
     padding: 10px 25px;
     border: 2px solid white;
     border-radius: 10px;
@@ -70,4 +68,49 @@
     font-size: 55px;
     color: #252432;
     margin-bottom: 70px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.sectionGap{
+    margin-bottom: 50px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.descriptionWrapper,  .imgWrapper{
+    width: 50%;
+    padding: 20px;
+}
+
+.forCenterAlign{
+    display: flex;
+    align-items: center;
+}
+
+.sectionTitle{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.primaryText{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.imgWrapper img{
+    border-radius: 40px;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
 }
