@@ -114,3 +114,20 @@
     margin: 0 auto;
     display: block;
 }
+
+.productiveSection{
+    border-radius: 20px;
+    background-color: rgba(77, 71, 255, 0.315);
+    padding: 30px;
+     text-align: center;
+}
+
+.productiveTitle{
+    margin-bottom: 40px;
+}
+
+.productivity{
+    font-size: 50px;
+    color: #4E47FF;
+    font-weight: bold;
+}
